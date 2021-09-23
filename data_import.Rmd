@@ -5,7 +5,8 @@ output: github_document
 
 ```{r setup}
 library(tidyverse)
-
+library(readxl)
+library(haven)
 ```
 
 ## Read in some data
@@ -21,4 +22,68 @@ litters_df = janitor::clean_names(litters_df)
 ```
 
 ##Take a look at the data
+
+Printing in the console
+```{r}
+litters_df
+
+
+```
+
+
+```{r}
+head(litters_df)
+tail(litters_df)
+skimr::skim(litters_df)#bad practice
+##View(litters_df) 不用在data chunk里，虽然好用，会影响knit
+# ?read_csv 查看各种参数
+
+```
+
+# options to read csv
+```{r}
+#litters_df = read.csv("./data/FAS_litters.csv", skip = 10, col.names = FALSE)
+
+litters_df = read.csv("./data/FAS_litters.csv", na = c("", 999, "."))
+#所有这些东西都视为null missing value
+
+
+
+
+```
+
+other file formats
+read in an excel file
+```{r}
+mlb_df = read_excel("./data/mlb11.xlsx", range = "A1:F7")
+mlb_df
+#View(mlb_df)
+```
+
+```{r}
+
+#pulse_df = read_sas("./data/public_pulse_data.sas7bdat")
+
+```
+
+
+##comparsion with Base R
+what abou 'read.csv'...? do not use .
+
+```{r}
+litters_base = read.csv("data/FAS_litters.csv") #会把variable转换成很多dot
+litters_base1 = read_csv("data/FAS_litters.csv")
+```
+export the mlb sub-table.
+```{r}
+write_csv(mlb_df, "./data/mlb_subtable.csv")
+
+```
+
+
+
+
+
+
+
 
