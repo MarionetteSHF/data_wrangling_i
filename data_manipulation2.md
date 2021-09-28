@@ -175,3 +175,39 @@ select(litter_df, litter_number, everything())
 x= relocate(litter_df, litter_number)
 #start with litters_df, keeep everything
 ```
+
+\#\#filter
+
+``` r
+x = filter(litter_df, gd0_weight < 22)
+
+
+y = filter(litter_df, gd_of_birth == 20)
+
+
+z = filter(litter_df, gd_of_birth != 20)
+
+
+ww=filter(litter_df, gd0_weight >=22, gd_of_birth == 20)
+
+
+qw = filter(litter_df, group == "Mod8")
+
+qw = filter(litter_df, group %in%c("Con7", "Mod8"))
+```
+
+## ‘mutate’
+
+``` r
+x = mutate(
+  litter_df, 
+  wt_gain = gd18_weight - gd0_weight,
+  group = str_to_lower(group))
+```
+
+\#\#arrange
+
+``` r
+x = arrange(litter_df, pups_born_alive)
+#sort by variable.
+```
