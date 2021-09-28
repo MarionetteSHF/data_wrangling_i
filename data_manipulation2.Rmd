@@ -1,0 +1,56 @@
+---
+title: "Data import"
+output: github_document
+---
+
+```{r setup}
+library(tidyverse)
+
+```
+
+```{r}
+litter_df = read_csv("./data/FAS_litters.csv")
+litter_df = janitor::clean_names(litter_df)
+```
+
+##'select' 
+
+Choose some columns and not others
+
+```{r}
+x = select(litter_df, group, litter_number)
+y = select(litter_df, group, gd0_weight : gd_of_birth)
+```
+
+```{r}
+select(litter_df, -litter_number)
+
+```
+
+
+```{r}
+##change name
+x =select(litter_df, GROUP = group, LITTer_NUmBer = litter_number)
+x
+```
+
+
+```{r}
+rename(litter_df, GROUP = group, LITTer_NUmBer = litter_number)
+
+```
+
+
+
+```{r}
+select(litter_df, starts_with("gd"))
+##start with only gd
+select(litter_df, litter_number, everything())
+##start with litters_df, keeep everything
+
+x= relocate(litter_df, litter_number)
+#start with litters_df, keeep everything
+
+
+```
+
