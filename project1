@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-06T15:14:32.146Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="vSAsoH_rCtufd3ao-ioB" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-06T15:14:56.902Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="03pFtYrn0H6aEPmqzVdJ" version="16.5.3" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -167,10 +167,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uVXrYGQ9cimzlJU2O84_-20" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
-          <mxGeometry x="630" y="110" width="290" height="290" as="geometry" />
-        </mxCell>
-        <mxCell id="uVXrYGQ9cimzlJU2O84_-21" value="Entity" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="510" y="480" width="250" height="170" as="geometry" />
+          <mxGeometry x="640" y="130" width="270" height="260" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
