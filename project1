@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-06T17:31:47.158Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="prN-2zdygJ7250GSux4u" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-06T17:37:26.273Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="T97TS4NO2MfMDvEygwGp" version="16.5.3" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -59,7 +59,7 @@
             <mxRectangle width="160" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uVXrYGQ9cimzlJU2O84_-15" value="deal" style="shape=rhombus;double=1;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+        <mxCell id="uVXrYGQ9cimzlJU2O84_-15" value="post" style="shape=rhombus;double=1;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="570" y="565" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uVXrYGQ9cimzlJU2O84_-17" value="" style="endArrow=none;html=1;rounded=0;entryX=-0.006;entryY=0.416;entryDx=0;entryDy=0;exitX=0.917;exitY=0.367;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="uVXrYGQ9cimzlJU2O84_-15" target="uVXrYGQ9cimzlJU2O84_-20" edge="1">
